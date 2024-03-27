@@ -25,3 +25,14 @@
     font-size: 20px;
     color: #fff;
 }
+@media(max-width: 500px) {
+    .Footer__container {
+        flex-direction: column;
+    }
+    .Footer__container p {
+        margin-top: 20px;
+    }
+    .Footer__container_image img {
+        width: 100%;
+    }
+}
