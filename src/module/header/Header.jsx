@@ -60,9 +60,9 @@ export default function Header() {
           <a href='#company' onClick={closeMenu}>О компании</a>
           <a onClick={closeMenu} href="#social">Все контакты</a>
           <div className={styles.socialIcons}>
-            <a href="https://vk.com/megastroy89" target='_blank'><img src="/image/vk.png" alt="" /></a>
-            <a href="https://t.me/megastroy89" target='_blank'><img src="/image/telegram.png" alt="" /></a>
-            <a href="https://api.whatsapp.com/send?phone=+79993429096" target='_blank'><img src="/image/whatsapp.png" alt="" /></a>
+            <a href="https://vk.com/megastroy89" target='_blank'><img src="/image/vk.svg" alt="" /></a>
+            <a href="https://t.me/megastroy89" target='_blank'><img src="/image/telegram.svg" alt="" /></a>
+            <a href="https://api.whatsapp.com/send?phone=+79993429096" target='_blank'><img src="/image/whatsapp.svg" alt="" /></a>
           </div>
         </div>
       )}
