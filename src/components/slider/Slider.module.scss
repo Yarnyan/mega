@@ -16,17 +16,19 @@
     transform: translateX(-50%);
 }
 
-.Slider__btn button {
+.Slider__btn a {
     padding: 15px 50px;
     background-color: #fff;
+    color: #000000 !important;
     border-radius: 8px;
     cursor: pointer;
     font-size: 20px;
     font-weight: 500;
     transition: 1s background-color, .5s color;
+    text-decoration: none;
 }
 
-.Slider__btn button:hover {
+.Slider__btn a:hover {
     background-color: rgba(58, 68, 82, 1);
-    color: #fff;
+    color: #fff !important;
 }

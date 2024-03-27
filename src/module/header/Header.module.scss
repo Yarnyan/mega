@@ -78,9 +78,24 @@
         background-size: cover;
 
     }
+
     .closeIcon svg {
         color: #fff;
         background-color: #fff;
+    }
+
+    .socialIcons {
+        margin-top: auto;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 150px;
+    }
+
+    .socialIcons img {
+        width: 48px;
+        height: 48px;
+        margin-right: 10px;
     }
 }
 

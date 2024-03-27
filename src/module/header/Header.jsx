@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export default function Header() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 500);
-  const [isMenuOpen, setIsMenuOpen] = useState(false); 
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
@@ -36,7 +36,7 @@ export default function Header() {
           {isMobile ? (
             <div className={styles.Header__burger} onClick={toggleMenu}>
               {isMenuOpen ? (
-                <div className={styles.closeIcon} onClick={closeMenu}></div> 
+                <div className={styles.closeIcon} onClick={closeMenu}></div>
               ) : (
                 <>
                   <div className={styles.burger}></div>
@@ -59,6 +59,11 @@ export default function Header() {
           <Link to={'/'} target='_blank' className={styles.first__link} onClick={closeMenu}>Юридическим лицам</Link>
           <a href='#company' onClick={closeMenu}>О компании</a>
           <a onClick={closeMenu} href="#social">Все контакты</a>
+          <div className={styles.socialIcons}>
+            <a href="https://vk.com/megastroy89" target='_blank'><img src="/image/vk.png" alt="" /></a>
+            <a href="https://t.me/megastroy89" target='_blank'><img src="/image/telegram.png" alt="" /></a>
+            <a href="https://api.whatsapp.com/send?phone=+79993429096" target='_blank'><img src="/image/whatsapp.png" alt="" /></a>
+          </div>
         </div>
       )}
     </div>

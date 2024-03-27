@@ -1,0 +1,27 @@
+.Footer {
+    padding: 50px 0;
+    background-color: #3a4452;
+    border-top: 1px solid gray
+}
+
+.Footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.Footer__container_image {
+    text-align: center;
+}
+
+.Footer__container_image h3 {
+    color: #fff;
+    font-size: 26px;
+}
+
+.Footer__container p {
+    font-size: 20px;
+    color: #fff;
+}

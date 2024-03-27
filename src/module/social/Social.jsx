@@ -7,8 +7,8 @@ export default function Social() {
         <div className={styles.Social__container}>
           <h3>Подписывайтесь на наши социальные сети, там вы узнаете о актуальных акциях, ценах и розыгрышах подарков</h3>
           <div className={styles.Social__container_btn}>
-            <Link>Вконтакте</Link>
-            <Link>Телеграм</Link>
+            <Link to={'https://vk.com/megastroy89'} target='_blank'>Вконтакте</Link>
+            <Link to={'https://t.me/megastroy89'} target='_blank'>Телеграм</Link>
           </div>
         </div>
     </div>

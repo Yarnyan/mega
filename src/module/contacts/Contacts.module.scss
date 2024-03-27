@@ -65,11 +65,23 @@
     font-size: 13px;
   }
   .Contacts__item a {
-    margin-left: 10px;
+    margin-left: 5px;
     cursor: pointer;
     transition: 1s color;
     font-size: 13px;
     color: #ffd014;
     text-decoration: none;
   }
+  .Contacts__item img {
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    color: #fff;
+  }
+  .Contacts__item {
+    color: #fff;
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+  } 
 }

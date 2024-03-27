@@ -9,6 +9,17 @@ export const slider = [
     },
 ]
 
+export const sliderMobile = [
+    {
+        id: 1,
+        image: '/image/photoMobile.png'
+    },
+    {
+        id: 2,
+        image: '/image/photoMobile.png'
+    },
+]
+
 export const AdvantageData = [
     {
         id: 1,
@@ -39,7 +50,7 @@ export const AddressData = [
     },
     {
         id: '2',
-        subtitle: 'г. Губкинский, Промышленная зона, Панель №3',
+        subtitle: 'г. Губкинский, Пром.зона, Панель №3',
         latitude: 64.438827,
         longitude: 76.481689
     },
