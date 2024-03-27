@@ -1,6 +1,7 @@
 .Header {
     background-color: rgba(58, 68, 82, 1);
-    height: 80px;
+    height: 82px;
+    border-bottom: 1px solid gray;
 }
 
 .Header__container {
@@ -16,7 +17,6 @@
 
 .Header__container_items img {
     max-height: 80px;
-    
 }
 
 .Header__items_nav a {
@@ -29,4 +29,68 @@
 
 .Header__items_nav a:hover {
     color: #ffd014;
+}
+
+.Header__burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 24px;
+    cursor: pointer;
+
+    .burger {
+        width: 30px;
+        height: 4px;
+        background-color: #ffd014;
+    }
+}
+
+.mobileMenu {
+    background-color: rgba(58, 68, 82, 1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    z-index: 200;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    a {
+        display: block;
+        color: #fff;
+        font-size: 18px;
+        text-decoration: none;
+        margin-top: 10px;
+    }
+
+    .closeIcon {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        background-image: url('/image/close.svg');
+        background-size: cover;
+
+    }
+    .closeIcon svg {
+        color: #fff;
+        background-color: #fff;
+    }
+}
+
+
+.first__link {
+    margin-top: 30px !important;
+}
+
+@media(max-width: 500px) {
+    .Header__container_items {
+        padding: 0 20px 0 0;
+    }
 }

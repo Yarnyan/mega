@@ -15,7 +15,7 @@ export default function Advantage() {
                         )
                     })}
                 </div>
-                <img src="/image/Advantage.png" alt="" style={{marginLeft: '20px'}}/>
+                <img src="/image/Advantage.png" alt="" style={{marginLeft: '20px'}} className={styles.Advantage__image}/>
             </div>
         </div>
     </div>

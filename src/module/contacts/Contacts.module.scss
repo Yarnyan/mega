@@ -29,12 +29,19 @@
   cursor: pointer;
   transition: 1s color;
   font-size: 16px;
-  color: #fff;
+  color: #ffd014;
   text-decoration: none;
 }
 
 .Contacts__item a:hover {
   color: #ffd014;
+}
+
+.Contacts__item img {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  color: #fff;
 }
 
 .Contacts__all {
@@ -47,4 +54,22 @@
 
 .Contacts__all:hover {
   color: #ffd014;
+}
+
+
+@media(max-width: 500px) {
+  .Contacts {
+    padding: 0 10px;
+  }
+  .Contacts__item p {
+    font-size: 13px;
+  }
+  .Contacts__item a {
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 1s color;
+    font-size: 13px;
+    color: #ffd014;
+    text-decoration: none;
+  }
 }

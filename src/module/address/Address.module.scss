@@ -1,5 +1,5 @@
 .Address {
-    padding: 100px 0;
+    padding: 100px 0 0 0;
 }
 
 .Address__container {
@@ -21,3 +21,15 @@
 .Address__map {
     margin-top: 40px;
 }
+
+@media(max-width: 500px) {
+    .Address__container {
+        padding: 0 10px;
+    }
+    .Address__container p {
+        margin-top: 15px;
+        font-size: 20px;
+        font-weight: 200;
+    }
+}
+

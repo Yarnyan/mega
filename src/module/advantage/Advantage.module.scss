@@ -24,3 +24,27 @@
     display: flex;
     flex-direction: column;
 }
+
+@media(max-width: 768px) {
+    .Advantage__image {
+        width: 400px;
+        height: 604px !important;
+    }
+}
+
+@media(max-width: 500px) {
+    .Advantage__container_items {
+        flex-direction: column-reverse;
+    }
+    .Advantage__image {
+        width: 335px;
+        height: 251px !important;
+        margin-left: 0 !important;
+    }
+    .Advantage {
+        padding: 100px 20px; 
+    }
+    .Advantage__item {
+        margin-top: 30px;
+    }
+}
