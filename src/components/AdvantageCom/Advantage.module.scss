@@ -1,0 +1,25 @@
+
+.Advantage__container {
+    display: flex;
+    align-items: center;
+}
+
+.Advantage__container img {
+    width: 80px;
+    height: 80px;
+}
+
+.Advantage__container_text {
+    margin-left: 30px;
+    color: #fff;
+}
+
+.Advantage__container_text h4 {
+    font-size: 26px;
+}
+
+.Advantage__container_text p {
+    line-height: 1.3;
+    font-size: 20px;
+    margin-top: 10px;
+}

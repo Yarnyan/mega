@@ -1,0 +1,32 @@
+.Header {
+    background-color: rgba(58, 68, 82, 1);
+    height: 80px;
+}
+
+.Header__container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.Header__container_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header__container_items img {
+    max-height: 80px;
+    
+}
+
+.Header__items_nav a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: 1s color;
+}
+
+.Header__items_nav a:hover {
+    color: #ffd014;
+}

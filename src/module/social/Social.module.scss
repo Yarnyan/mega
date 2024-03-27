@@ -1,0 +1,44 @@
+.Social {
+    padding: 100px 0;
+    background-color: #3a4452;
+}
+
+.Social__container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Social__container h3 {
+    color: #fff;
+    max-width: 1000px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Social__container_btn {
+    margin-top: 70px;
+}
+
+.Social__container_btn {
+    display: flex;
+}
+
+.Social__container_btn a {
+    border: 2px solid #fff;
+    background-color: transparent;
+    padding: 15px 30px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 1s border, 1s color;
+}
+
+.Social__container_btn a:hover {
+    border: 2px solid #ffd014;
+    color: #ffd014;
+}

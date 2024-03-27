@@ -1,0 +1,26 @@
+.Advantage {
+    background-color: #3a4452;
+    padding: 100px 0;
+}
+
+.Advantage__container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.Advantage__container h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.Advantage__container_items {
+    margin-top: 60px;
+    display: flex;
+}
+
+.Advantage__item {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
