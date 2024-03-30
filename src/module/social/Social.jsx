@@ -37,7 +37,7 @@ export default function Social() {
 
 
         <div className={styles.Contacts__item_kadr}>
-          <p>Кадры: Олег Николаевич</p>
+          <p>Отдел кадров: Олег Николаевич</p>
           <span>-</span>
           <a target='_black' href='tel:+79826157240' style={{ marginRight: '10px' }}>Позвонить</a>
         </div>
