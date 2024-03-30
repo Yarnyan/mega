@@ -68,7 +68,8 @@ export const AdvantageData = [
 export const AddressData = [
     {
         id: '1',
-        subtitle: 'г. Губкинский, ул. Геологов, д.26',
+        city: 'г. Губкинский,',
+        address: 'ул. Геологов, д.26',
         latitude: 64.456344,
         longitude: 76.452538,
         tel: '8(34936)31949',
@@ -76,14 +77,16 @@ export const AddressData = [
     },
     {
         id: '2',
-        subtitle: 'г. Губкинский, Панель №3, д.21',
+        city: 'г. Губкинский,',
+        address: 'Панель №3, д.21',
         latitude: 64.438827,
         longitude: 76.481689,
         tel: '8(34936)27747'
     },
     {
         id: '3',
-        subtitle: 'г. Тарко-Сале, ул. Республики, 36A',
+        city: 'г. Тарко-Сале,',
+        address: ' ул. Республики, 36A',
         latitude: 64.923484,
         longitude: 77.769553,
         tel: '8(34997)28800',

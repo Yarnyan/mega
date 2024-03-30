@@ -70,6 +70,9 @@
 .Contacts__item_kadr p {
     margin-right: 10px;
     font-size: 16px;
+    word-wrap: break-word; 
+    max-width: 200px;
+    overflow-wrap: break-word;
 }
 
 .Contacts__item_kadr {
@@ -122,7 +125,11 @@
         transition: 1s border, 1s color;
     }
 
-    .Contacts__item p,
+    .Contacts__item p {
+        margin-right: 2px;
+        font-size: 16px;
+        max-width: 137px;
+    }
     .Contacts__item_kadr p {
         margin-right: 2px;
         font-size: 16px;

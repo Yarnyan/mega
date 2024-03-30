@@ -14,22 +14,28 @@ export default function Social() {
       </div>
       <div className={styles.Contacts__items}>
         {AddressData.map((item) => {
+          const formattedSubtitle = `${item.city} ${item.address}`;
+
           return (
             <div className={styles.Contacts__item}>
-              <p>{item.subtitle}</p>
-              <span>-</span>
-              <a target='_black' href='tel:+79826157240' style={{ marginRight: '10px' }}>Позвонить</a>
-              {item.tel !== '8(34936)27747' && (
-                <>
-                  <span>|</span>
-                  <a href={`https://api.whatsapp.com/send?phone=${item.telWhatSapp}`}>
-                    Whatsapp
-                  </a>
-                </>
-              )}
+              <p className='subtitle'>{formattedSubtitle}</p>
+              <div>
+                <span>-</span>
+                <a target='_blank' href='tel:+79826157240' style={{ marginRight: '10px' }}>Позвонить</a>
+                {item.tel !== '8(34936)27747' && (
+                  <>
+                    <span>|</span>
+                    <a href={`https://api.whatsapp.com/send?phone=${item.telWhatSapp}`}>
+                      Whatsapp
+                    </a>
+                  </>
+                )}
+              </div>
             </div>
-          )
+          );
         })}
+
+
         <div className={styles.Contacts__item_kadr}>
           <p>Кадры: Олег Николаевич</p>
           <span>-</span>
