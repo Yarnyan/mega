@@ -21,7 +21,7 @@ export default function Social() {
               <p className='subtitle'>{formattedSubtitle}</p>
               <div>
                 <span>-</span>
-                <a target='_blank' href='tel:+79826157240' style={{ marginRight: '10px' }}>Позвонить</a>
+                <a target='_blank' href={`tel:${item.tel}`} style={{ marginRight: '10px' }}>Позвонить</a>
                 {item.tel !== '8(34936)27747' && (
                   <>
                     <span>|</span>
