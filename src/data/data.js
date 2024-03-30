@@ -72,7 +72,7 @@ export const AddressData = [
         address: 'ул. Геологов, д.26',
         latitude: 64.456344,
         longitude: 76.452538,
-        tel: '8(34936)31949',
+        tel: '+7(34936)31949',
         telWhatSapp: '+79966948544',
     },
     {
@@ -81,7 +81,7 @@ export const AddressData = [
         address: 'Панель №3, д.21',
         latitude: 64.438827,
         longitude: 76.481689,
-        tel: '8(34936)27747'
+        tel: '+7(34936)27747'
     },
     {
         id: '3',
@@ -89,7 +89,7 @@ export const AddressData = [
         address: ' ул. Республики, 36A',
         latitude: 64.923484,
         longitude: 77.769553,
-        tel: '8(34997)28800',
-        telWhatSapp: '89220980798',
+        tel: '+7(34997)28800',
+        telWhatSapp: '+79220980798',
     }
 ];  

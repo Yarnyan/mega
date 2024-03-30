@@ -18,7 +18,7 @@ export default function Home() {
       <Address />
       <Social />
       <Footer />
-      <a className="scrollToTopButton" href='https://api.whatsapp.com/send?phone=+79993429096' target='_blank'>
+      <a className="scrollToTopButton" href='https://api.whatsapp.com/send?phone=+79966948544' target='_blank'>
         <img src="/image/whatsapp.png" alt="" />
       </a>
     </div>
