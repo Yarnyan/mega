@@ -62,6 +62,9 @@
   .Contacts {
     padding: 0 10px;
   }
+  .Contacts__container_items {
+    justify-content: center;
+  }
   .Contacts__item p {
     max-width: 112px;
     font-size: 13px;

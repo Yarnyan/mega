@@ -8,8 +8,9 @@ export default function Address() {
             <div className={styles.Address__container}>
                 <h3>Приходите в наши магазины и узнаете подробнее</h3>
                 {AddressData.map((item) => {
+                    const formattedSubtitle = `${item.city} ${item.address}`;
                     return (
-                        <p>{item.subtitle}</p>
+                        <p>{formattedSubtitle}</p>
                     )
                 })}
             </div>
