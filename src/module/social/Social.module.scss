@@ -52,13 +52,22 @@
     margin-top: 25px;
 }
 
+.Contacts__item_kadr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0;
+}
+
 .Contacts__item {
     color: #fff;
     display: flex;
     margin: 10px 0;
 }
 
-.Contacts__item p {
+.Contacts__item p,
+.Contacts__item_kadr p {
     margin-right: 10px;
     font-size: 16px;
 }
@@ -68,7 +77,8 @@
     font-size: 16px;
 }
 
-.Contacts__item a {
+.Contacts__item a,
+.Contacts__item_kadr a {
     margin-left: 10px;
     cursor: pointer;
     transition: 1s color;
@@ -81,7 +91,8 @@
     color: #ffd014;
 }
 
-.Contacts__item img {
+.Contacts__item img,
+.Contacts__item_kadr img {
     width: 20px;
     height: 20px;
     margin-left: 5px;
@@ -89,8 +100,13 @@
 }
 
 @media(max-width: 500px) {
+    .Contacts__items,
+    .Contacts__item_kadr {
+        justify-content: flex-start;
+        align-items: start;
+    }
     .Social {
-        padding: 100px 10px;
+        padding: 100px 2px;
         background-color: #3a4452;
     }
 
@@ -104,5 +120,11 @@
         font-size: 20px;
         font-weight: 700;
         transition: 1s border, 1s color;
+    }
+
+    .Contacts__item p,
+    .Contacts__item_kadr p {
+        margin-right: 2px;
+        font-size: 16px;
     }
 }

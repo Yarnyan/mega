@@ -18,16 +18,22 @@ export default function Social() {
             <div className={styles.Contacts__item}>
               <p>{item.subtitle}</p>
               <span>-</span>
-              <a target='_black' href='tel:+79826157240' style={{marginRight: '10px'}}>Позвонить</a> 
-              <span>|</span>
-              <a href={`https://api.whatsapp.com/send?phone=${item.tel}`}>
-                Whatsapp
-              </a>
+              <a target='_black' href='tel:+79826157240' style={{ marginRight: '10px' }}>Позвонить</a>
+              {item.tel !== '8(34936)27747' && (
+                <>
+                  <span>|</span>
+                  <a href={`https://api.whatsapp.com/send?phone=${item.telWhatSapp}`}>
+                    Whatsapp
+                  </a>
+                </>
+              )}
             </div>
           )
         })}
         <div className={styles.Contacts__item_kadr}>
-          <p>Кадры : +7 (961) 780-70-70 Олег Николаевич</p>
+          <p>Кадры: Олег Николаевич</p>
+          <span>-</span>
+          <a target='_black' href='tel:+79826157240' style={{ marginRight: '10px' }}>Позвонить</a>
         </div>
       </div>
     </div>

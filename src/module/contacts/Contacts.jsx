@@ -29,6 +29,14 @@ export default function Contacts() {
                                     <span>-</span>
                                     <a target='_black' href='tel:+79826157240'>Позвонить</a>
                                     <img src="/image/tel.png" alt="" />
+                                    {item.tel !== '8(34936)27747' && (
+                                        <>
+                                            <span>|</span>
+                                            <a href={`https://api.whatsapp.com/send?phone=${item.telWhatSapp}`}>
+                                                Whatsapp
+                                            </a>
+                                        </>
+                                    )}
                                 </div>
                             )
                         })}
