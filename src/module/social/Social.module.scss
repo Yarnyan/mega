@@ -100,11 +100,13 @@
 }
 
 @media(max-width: 500px) {
+
     .Contacts__items,
     .Contacts__item_kadr {
         justify-content: flex-start;
         align-items: start;
     }
+
     .Social {
         padding: 100px 2px;
         background-color: #344253;
@@ -121,22 +123,22 @@
         font-weight: 700;
         transition: 1s border, 1s color;
     }
-    .Contacts__item p,
-.Contacts__item_kadr p {
-    margin-right: 10px;
-    font-size: 16px;
-    word-wrap: break-word; 
-    max-width: 200px;
-    overflow-wrap: break-word;
-}
 
+    .Contacts__item p {
+        margin-right: 10px;
+        font-size: 16px;
+        word-wrap: break-word;
+        max-width: 200px;
+        overflow-wrap: break-word;
+    }
     .Contacts__item p {
         margin-right: 2px;
         font-size: 16px;
         max-width: 137px;
     }
+
     .Contacts__item_kadr p {
-        margin-right: 2px;
+        margin-right: 4px;
         font-size: 16px;
     }
 }
