@@ -42,7 +42,7 @@
   height: 20px;
   margin-left: 5px;
   color: #fff;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .Contacts__all {
@@ -63,10 +63,11 @@
     padding: 0 10px;
   }
   .Contacts__item p {
+    max-width: 112px;
     font-size: 13px;
   }
   .Contacts__item a {
-    margin-left: 1px;
+    margin-left: 5px;
     cursor: pointer;
     transition: 1s color;
     font-size: 13px;

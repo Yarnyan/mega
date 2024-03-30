@@ -23,9 +23,10 @@ export default function Contacts() {
                 <div className={styles.Contacts__container_items}>
                     <div className={styles.Contacts__items}>
                         {AddressData.map((item) => {
+                                      const formattedSubtitle = `${item.city} ${item.address}`;
                             return (
                                 <div className={styles.Contacts__item}>
-                                    <p>{item.subtitle}</p>
+                                    <p>{formattedSubtitle}</p>
                                     <span>-</span>
                                     <a target='_black' href='tel:+79826157240'>Позвонить</a>
                                     <img src="/image/tel.png" alt="" />
