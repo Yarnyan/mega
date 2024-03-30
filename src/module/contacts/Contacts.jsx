@@ -28,7 +28,7 @@ export default function Contacts() {
                                 <div className={styles.Contacts__item}>
                                     <p>{formattedSubtitle}</p>
                                     <span>-</span>
-                                    <a target='_black' href='tel:+79826157240'>Позвонить</a>
+                                    <a target='_black' href={`tel:${item.tel}`}>Позвонить</a>
                                     <img src="/image/tel.png" alt="" />
                                     {item.tel !== '8(34936)27747' && (
                                         <>
