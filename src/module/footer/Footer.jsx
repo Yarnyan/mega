@@ -8,7 +8,7 @@ export default function Footer() {
           <img src="/image/logofooter.svg" alt="" />
         </div>
         <div>
-          <p>© 2023 г. Все права защищены.</p>
+          <p>© 2024 г. Все права защищены.</p>
         </div>
       </div>
     </div>
