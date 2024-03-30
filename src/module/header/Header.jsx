@@ -32,7 +32,7 @@ export default function Header() {
     <div className={styles.Header}>
       <div className={styles.Header__container}>
         <div className={styles.Header__container_items}>
-          <img src="/image/logo2.png" alt="" />
+          <img src="/image/logo3.png" alt="" />
           {isMobile ? (
             <div className={styles.Header__burger} onClick={toggleMenu}>
               {isMenuOpen ? (
