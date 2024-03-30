@@ -47,7 +47,6 @@ export default function Header() {
             </div>
           ) : (
             <div className={styles.Header__items_nav}>
-              <Link to={'/'} target='_blank'>Юридическим лицам</Link>
               <a href='#company'>О компании</a>
             </div>
           )}
@@ -56,7 +55,6 @@ export default function Header() {
       {isMobile && isMenuOpen && (
         <div className={styles.mobileMenu}>
           <div className={styles.closeIcon} onClick={closeMenu}></div>
-          <Link to={'/'} target='_blank' className={styles.first__link} onClick={closeMenu}>Юридическим лицам</Link>
           <a href='#company' onClick={closeMenu}>О компании</a>
           <a onClick={closeMenu} href="#social">Все контакты</a>
           <div className={styles.socialIcons}>

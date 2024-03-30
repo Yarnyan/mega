@@ -17,13 +17,25 @@
 .Advantage__container_items {
     margin-top: 60px;
     display: flex;
+    align-items: center;
 }
 
 .Advantage__item {
     justify-content: space-between;
     display: flex;
     flex-direction: column;
+
+    >*:not(:first-child) {
+        margin-top: 15px;
+    }
 }
+
+
+.Advantage__image {
+    height: 100%;
+}
+
+
 
 @media(max-width: 768px) {
     .Advantage__image {
@@ -36,14 +48,17 @@
     .Advantage__container_items {
         flex-direction: column-reverse;
     }
+
     .Advantage__image {
         width: 335px;
         height: 251px !important;
         margin-left: 0 !important;
     }
+
     .Advantage {
-        padding: 100px 20px; 
+        padding: 100px 20px;
     }
+
     .Advantage__item {
         margin-top: 30px;
     }
