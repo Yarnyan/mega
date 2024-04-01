@@ -63,3 +63,28 @@ button {
     right: 60px;
     width: 60px;
 }
+
+.swiper {
+    max-width: 100%;
+    width: 100%;
+}
+
+.swiper-slide img {
+    max-width: none;
+    width: 100%; 
+    height: auto; 
+}
+
+.slider__container {
+    width: 560px;
+    height: 420px;
+    margin-left: 20px;
+}
+
+@media(max-width: 500px) {
+    .slider__container {
+        width: 100% !important;
+        height: 100% !important;
+        margin-left: 0 !important;
+    }
+}

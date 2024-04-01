@@ -1,22 +1,14 @@
 export const slider = [
     {
         id: 1,
-        image: '/image/photo.png'
-    },
-    {
-        id: 2,
-        image: '/image/photo.png'
+        image: '/image/bannerDekstop.jpg'
     },
 ]
 
 export const sliderMobile = [
     {
         id: 1,
-        image: '/image/photoMobile.png'
-    },
-    {
-        id: 2,
-        image: '/image/photoMobile.png'
+        image: '/image/bannerMobile.jpg'
     },
 ]
 
@@ -93,3 +85,14 @@ export const AddressData = [
         telWhatSapp: '+79220980798',
     }
 ];  
+
+export const sliderAdvantageSlider = [
+    {
+        id: 1,
+        image: '/image/Advantage.png'
+    },
+    {
+        id: 2,
+        image: '/image/Advantage.png'
+    },
+] 
