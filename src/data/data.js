@@ -61,7 +61,7 @@ export const AddressData = [
     {
         id: '1',
         city: 'г. Губкинский,',
-        address: 'ул. Геологов, д.26',
+        address: 'Северная экспедиция, ул Геологов, д.26',
         latitude: 64.456344,
         longitude: 76.452538,
         tel: '+7(34936)31949',
