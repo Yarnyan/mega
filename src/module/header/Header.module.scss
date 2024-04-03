@@ -17,6 +17,8 @@
 
 .Header__container_items img {
     max-height: 80px;
+    height: 80px;
+    max-width: 248px;
 }
 
 .Header__items_nav a {
@@ -106,6 +108,6 @@
 
 @media(max-width: 500px) {
     .Header__container_items {
-        padding: 0 20px 0 0;
+        padding: 0 20px 0 20px;
     }
 }

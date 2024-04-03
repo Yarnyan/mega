@@ -5,7 +5,7 @@ export default function Footer() {
     <div className={styles.Footer}>
       <div className={styles.Footer__container}>
         <div className={styles.Footer__container_image}>
-          <img src="/image/logofooter.svg" alt="" />
+          <img src="/image/logofootersvg.svg" alt="" />
         </div>
         <div>
           <p>© 2024 г. Все права защищены.</p>
