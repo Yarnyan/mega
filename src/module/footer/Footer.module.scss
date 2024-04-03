@@ -6,7 +6,7 @@
 
 .Footer__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
@@ -16,12 +16,12 @@
     text-align: center;
 }
 
-.Footer__container_image h3 {
-    color: #fff;
-    font-size: 26px;
+.Footer__container_image img {
+    width: 248px;
 }
 
 .Footer__container p {
+    margin-left: 15px;
     font-size: 20px;
     color: #fff;
 }
