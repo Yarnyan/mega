@@ -88,11 +88,67 @@ export const AddressData = [
 
 export const sliderAdvantageSlider = [
     {
-        id: 1,
-        image: '/image/Advantage.png'
+      id: 1,
+      image: '/image/slider1_image.jpg',
     },
     {
-        id: 2,
-        image: '/image/Advantage.png'
+      id: 2,
+      image: '/image/slider2_image.jpg',
     },
-] 
+    {
+      id: 3,
+      image: '/image/slider3_image.jpg',
+    },
+    {
+      id: 4,
+      image: '/image/slider4_image.jpg',
+    },
+    {
+      id: 5,
+      image: '/image/slider5_image.jpg',
+    },
+    {
+      id: 6,
+      image: '/image/slider6_image.jpg',
+    },
+    {
+      id: 7,
+      image: '/image/slider7_image.jpg',
+    },
+    {
+      id: 8,
+      image: '/image/slider8_image.jpg',
+    },
+    {
+      id: 9,
+      image: '/image/slider9_image.jpg',
+    },
+    {
+      id: 10,
+      image: '/image/slider10_image.jpg',
+    },
+    {
+      id: 11,
+      image: '/image/slider11_image.jpg',
+    },
+    {
+      id: 12,
+      image: '/image/slider12_image.jpg',
+    },
+    {
+      id: 13,
+      image: '/image/slider13_image.jpg',
+    },
+    {
+      id: 14,
+      image: '/image/slider14_image.jpg',
+    },
+    {
+      id: 15,
+      image: '/image/slider15_image.jpg',
+    },
+    {
+      id: 16,
+      image: '/image/slider16_image.jpg',
+    },
+  ];
